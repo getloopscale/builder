@@ -102,7 +102,7 @@ jobs:
       - uses: jdx/mise-action@c37c93293d6b742fc901e1406b8f764f6fb19dac # v2.4.4
 
       - name: Clone theo-stacks (sibling)
-        run: git clone --depth 1 https://github.com/usetheodev/theo-stacks.git /tmp/theo-stacks
+        run: git clone --depth 1 https://github.com/getloopscale/stacks.git /tmp/theo-stacks
 
       - name: Install hadolint
         run: |
